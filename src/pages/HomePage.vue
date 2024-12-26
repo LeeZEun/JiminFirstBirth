@@ -3,6 +3,35 @@ import backImg from '@/assets/images/background_img.jpeg'
 import { onMounted, ref } from 'vue'
 import { GoogleMap, Marker } from 'vue3-google-map'
 
+import firstFirstImg from '@/assets/images/second/1.jpeg'
+import firstSecondImg from '@/assets/images/second/2.jpeg'
+import firstThirdImg from '@/assets/images/second/3.jpeg'
+import firstFourthImg from '@/assets/images/second/4.jpeg'
+import firstFifthImg from '@/assets/images/second/5.jpeg'
+import firstSixthImg from '@/assets/images/second/6.jpeg'
+
+import secondFirstImg from '@/assets/images/first/1.jpeg'
+import secondSecondImg from '@/assets/images/first/2.jpeg'
+import secondThirdImg from '@/assets/images/first/3.jpeg'
+import secondFourthImg from '@/assets/images/first/4.jpeg'
+import secondFifthImg from '@/assets/images/first/5.jpeg'
+import secondSixthImg from '@/assets/images/first/6.jpeg'
+
+import thirdFirstImg from '@/assets/images/third/1.jpeg'
+import thirdSecondImg from '@/assets/images/third/2.jpeg'
+import thirdThirdImg from '@/assets/images/third/3.jpeg'
+import thirdFourthImg from '@/assets/images/third/4.jpeg'
+import thirdFifthImg from '@/assets/images/third/5.jpeg'
+import thirdSixthImg from '@/assets/images/third/6.jpeg'
+
+import fourthFirstImg from '@/assets/images/fourth/1.jpeg'
+import fourthSecondImg from '@/assets/images/fourth/2.jpeg'
+import fourthThirdImg from '@/assets/images/fourth/3.jpeg'
+import fourthFourthImg from '@/assets/images/fourth/4.jpeg'
+import fourthFifthImg from '@/assets/images/fourth/5.jpeg'
+import fourthSixthImg from '@/assets/images/fourth/6.jpeg'
+
+
 const isPageVisible = ref(false)
 
 // 구글맵 API 키 설정
@@ -20,30 +49,17 @@ const invitationMessage = ref(
   '함께 맞이하는 특별한 날,\n저희 아기의 첫 돌잔치에 초대합니다.\n많은 축복과 사랑 부탁드립니다.',
 )
 const galleryPhotos = ref([
-  '/src/assets/images/second/1.jpeg',
-  '/src/assets/images/second/2.jpeg',
-  '/src/assets/images/second/3.jpeg',
-  '/src/assets/images/second/4.jpeg',
-  '/src/assets/images/second/5.jpeg',
-  '/src/assets/images/second/6.jpeg',
-  '/src/assets/images/first/1.jpeg',
-  '/src/assets/images/first/2.jpeg',
-  '/src/assets/images/first/3.jpeg',
-  '/src/assets/images/first/4.jpeg',
-  '/src/assets/images/first/5.jpeg',
-  '/src/assets/images/first/6.jpeg',
-  '/src/assets/images/third/1.jpeg',
-  '/src/assets/images/third/2.jpeg',
-  '/src/assets/images/third/3.jpeg',
-  '/src/assets/images/third/4.jpeg',
-  '/src/assets/images/third/5.jpeg',
-  '/src/assets/images/third/6.jpeg',
-  '/src/assets/images/fourth/1.JPG',
-  '/src/assets/images/fourth/2.JPG',
-  '/src/assets/images/fourth/3.JPG',
-  '/src/assets/images/fourth/4.JPG',
-  '/src/assets/images/fourth/5.JPG',
-  '/src/assets/images/fourth/6.JPG',
+  firstFirstImg, firstSecondImg, firstThirdImg,
+  firstFourthImg, firstFifthImg, firstSixthImg,
+
+  secondFirstImg, secondSecondImg, secondThirdImg,
+  secondFourthImg, secondFifthImg, secondSixthImg,
+
+  thirdFirstImg, thirdSecondImg, thirdThirdImg,
+  thirdFourthImg, thirdFifthImg, thirdSixthImg,
+
+  fourthFirstImg, fourthSecondImg, fourthThirdImg,
+  fourthFourthImg, fourthFifthImg, fourthSixthImg,
 ])
 const locationName = ref('63빌딩 워킹온더클라우드')
 const locationAddress = ref('서울시 영등포구 63로 50 한화생명빌딩 59층')
