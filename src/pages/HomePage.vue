@@ -175,6 +175,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .page {
@@ -225,13 +226,13 @@ body {
 
 .header-content {
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
   color: white;
   text-align: center;
   background: rgba(0, 0, 0, 0.4);
-  padding: 10px 15px;
+  padding: 5px 15px;
   border-radius: 8px;
   z-index: 2;
   white-space: nowrap;
